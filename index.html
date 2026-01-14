@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,59 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <nav>
+    <div class="nav_container">
+      <a href="#home" class="logo">Kang-Ellie</a>
+      <ul class="nav_links">
+        <!-- <li><a href="#about">소개</a></li>
+        <li><a href="#skills">기술 스택</a></li> -->
+        <li><a href="#projects">프로젝트</a></li>
+        <!-- <li><a href="#contact">연락처</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero_container">
+        <div class="hero_text_content">
+          <p class="hero_greeting">안녕하세요 ☺️</p>
+          <h1 class="hero_name">강영아 입니다!</h1>
+          <h2 class="hero_hope">풀스택 개발자</h2>
+          <div class="hero_description">
+            유의미한 정보를 어떠한 방법으로 <br>'사용자에게 잘 전달할 수 있는가?'
+            에 대해 고민합니다. <br>사용자의 연령대에 상관없이 누구나 편리하게<br>
+            이용할 수 있는 서비스를 만들고 싶습니다.
+          </div>
+        </div>
+
+        <div class="hero_image_content">
+          <img src="./images/youngah.png" alt="프로필 사진">
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <p class="title">프로젝트</p>
+      <div class="card_container">
+        <div class="card">
+          <img class="card_img" src="./images/trip.png">
+          <p class="card_title"> 운명의 여행지 </p>
+          <a href="https://github.com/Kang-Ellie" target="_blank" class="go">Github →</a>
+        </div>
+        <div class="card">
+          <img class="card_img" src="./images/bab.png">
+          <p class="card_title"> 숨은 맛집 고수 </p>
+          <a href="https://github.com/Kang-Ellie" target="_blank" class="go">Github →</a>
+        </div>
+        <div class="card">
+          <img class="card_img" src="./images/tennis.png">
+          <p class="card_title"> 테니스 쇼핑몰 </p>
+          <a href="https://github.com/Kang-Ellie" target="_blank" class="go">Github →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+ 
 </body>
 </html>
